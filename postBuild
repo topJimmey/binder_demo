@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Running heavy postBuild setup..."
+python -m numba -s | head -n 20
+echo "postBuild complete."
